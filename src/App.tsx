@@ -198,13 +198,20 @@ function App() {
             </div>
 
             <div style={{ maxWidth: 600, margin: '0 auto', fontSize: '0.875rem', color: 'var(--color-text-secondary)', lineHeight: 1.6 }}>
-                <p>This calculator provides estimates for 401(k) contributions based on your inputs. The 2026 IRS contribution limit is $23,500 for employees under 50, with an additional $7,500 catch-up for those 50 and older. Employer contributions do not count toward your personal limit. These figures are estimates only and do not constitute financial advice. Growth projections assume consistent contributions and returns. Consult a financial advisor for personalized retirement planning.</p>
+                <p>This calculator provides estimates for 401(k) contributions based on your inputs. The 2026 IRS contribution limit is $23,500 for employees under 50, with an additional $7,500 catch-up for those 50 and older. Employer contributions do not count toward your personal limit. These figures are estimates only and do not constitute financial advice.</p>
+                <p style={{ marginTop: 'var(--space-4)' }}>Understanding your 401(k) options is crucial for retirement planning. Your contribution percentage, employer match formula, and years until retirement all significantly impact your final nest egg. Even small increases in contribution rates can compound into substantial differences over decades.</p>
+                <p style={{ marginTop: 'var(--space-4)' }}>Growth projections assume consistent contributions and returns. Actual market performance varies year to year. Consult a qualified financial advisor for personalized retirement planning advice tailored to your specific situation.</p>
             </div>
 
             <footer style={{ textAlign: 'center', padding: 'var(--space-8) var(--space-4)', color: 'var(--color-text-muted)', borderTop: '1px solid var(--color-border)', marginTop: 'var(--space-8)' }}>
                 <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 'var(--space-4)', fontSize: '0.875rem' }}>
                     <li>• Estimates only</li><li>• Not financial advice</li><li>• Free to use</li>
                 </ul>
+                <nav style={{ marginTop: 'var(--space-4)', display: 'flex', gap: 'var(--space-4)', justifyContent: 'center' }}>
+                    <a href="https://scenariocalculators.com/privacy" target="_blank" rel="noopener noreferrer" style={{ color: '#94A3B8', fontSize: '0.75rem' }}>Privacy Policy</a>
+                    <span style={{ color: '#64748B' }}>|</span>
+                    <a href="https://scenariocalculators.com/terms" target="_blank" rel="noopener noreferrer" style={{ color: '#94A3B8', fontSize: '0.75rem' }}>Terms of Service</a>
+                </nav>
                 <p style={{ marginTop: 'var(--space-4)', fontSize: '0.75rem' }}>&copy; 2026 401(k) Calculator</p>
             </footer>
 
